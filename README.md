@@ -83,6 +83,7 @@ For each waveform, the system extracts:
 
 ### Dimensionality Reduction and Clustering
 The high-dimensional feature space is reduced using PCA, then clustered using K-means to identify similar waveform patterns. t-SNE is used for visualization purposes.
+<img width="1294" height="989" alt="tsne_overview" src="https://github.com/user-attachments/assets/6bf3b6bc-9903-40ca-bde2-95a509efb462" />
 
 ### GPU Acceleration
 When available, the system uses:
