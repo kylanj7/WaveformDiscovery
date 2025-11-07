@@ -70,7 +70,6 @@ The system generates complex waveforms by combining sine, square, triangle, and 
 Cluster Samples:
 <img width="1189" height="990" alt="cluster_016_samples_5x1" src="https://github.com/user-attachments/assets/14dbca7b-1a79-4e59-b80a-7ea2bf79c595" />
 <img width="1189" height="990" alt="cluster_032_samples_5x1" src="https://github.com/user-attachments/assets/49351b60-0835-40dc-a829-8025e90ee838" />
-<img width="1189" height="990" alt="cluster_049_samples_5x1" src="https://github.com/user-attachments/assets/b1b6a1ba-3a72-4f98-99d9-fd4d784e396b" />
 
 ### Feature Extraction
 
