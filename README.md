@@ -83,7 +83,7 @@ For each waveform, the system extracts:
 The high-dimensional feature space is reduced using PCA, then clustered using K-means to identify similar waveform patterns. t-SNE is used for visualization purposes.
 <img width="1294" height="989" alt="tsne_overview" src="https://github.com/user-attachments/assets/6bf3b6bc-9903-40ca-bde2-95a509efb462" />
 
-### Real Physical Replication of EMFs using Frequency Multiplyer
+### Actual Physical Replication of computed EMFs using Frequency Multiplyer
 
 Taking the dimensions given from the discovery model, we can replicate these waveforms in a tanglible way.
 ![SsfnEx4y](https://github.com/user-attachments/assets/54d759d9-e5c6-4f15-aa82-5374d7bb521d)
