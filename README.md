@@ -88,12 +88,6 @@ The high-dimensional feature space is reduced using PCA, then clustered using K-
 Taking the dimensions given from the discovery model, we can replicate these waveforms in a tanglible way.
 ![SsfnEx4y](https://github.com/user-attachments/assets/54d759d9-e5c6-4f15-aa82-5374d7bb521d)
 
-### GPU Acceleration
-When available, the system uses:
-- cuPy for accelerated array operations
-- cuML for PCA, t-SNE and K-means
-- Batch processing to optimize memory usage
-
 ## Performance Considerations
 - Memory usage scales with the number of waveforms and features
 - Batch processing helps manage memory constraints
