@@ -80,7 +80,7 @@ For each waveform, the system extracts:
 - Frequency domain features (spectral bands, dominant frequency)
 
 ### Dimensionality Reduction and Clustering
-The high-dimensional feature space is reduced using PCA, then clustered using K-means to identify similar waveform patterns. t-SNE is used for visualization purposes.
+The high-dimensional feature space is reduced using PCA (Principal Component Analysis), then clustered using K-means to identify similar waveform patterns. t-SNE (t-Distributed Stochastic Neighbor Embedding) is used for visualization purposes.
 <img width="1294" height="989" alt="tsne_overview" src="https://github.com/user-attachments/assets/6bf3b6bc-9903-40ca-bde2-95a509efb462" />
 
 ### Actual Physical Replication of Computed EMFs using Frequency Multiplyer
