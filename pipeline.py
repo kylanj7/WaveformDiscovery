@@ -34,7 +34,7 @@ except ImportError:
 print("Starting large-scale waveform analysis with GPU acceleration...")
 start_time = time.time()
 
-# Your complex waveform generation function
+#  Waveform function
 def generate_waveform(params):
     f_sine, f_square, f_triangle, f_sawtooth = params
     
