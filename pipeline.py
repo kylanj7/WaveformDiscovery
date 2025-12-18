@@ -307,7 +307,7 @@ else:
     
     # t-SNE on CPU (subsample to save computation)
     sample_indices = np.random.choice(range(num_samples), min(5000, num_samples), replace=False)
-    tsne = TSNE(n_components=2, perplexity=50, n_iter=1000, random_state=42)
+    tsne = TSNE(n_components=2, perplexity=50, max_iter=1000, random_state=42)
     X_tsne = tsne.fit_transform(X_pca[sample_indices])
     sample_labels = kmeans_labels[sample_indices]
 
