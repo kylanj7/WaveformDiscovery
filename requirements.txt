@@ -1,12 +1,32 @@
-# Data Manipulation & Scientific Computing
-numpy>=2.3.5
-pandas>=2.3.3
-scipy>=1.16.3
+# Core Dependencies (Required for CPU)
+numpy>=2.0.0,<3.0.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0
+scipy>=1.11.0
+tqdm>=4.65.0
 
-# Visualization
-matplotlib>=3.10.8
-seaborn>=0.13.2
+# GPU Dependencies (Optional - requires NVIDIA GPU with CUDA)
+# Uncomment the appropriate section based on your Python version and CUDA version
 
-# Machine Learning & Progress Tracking
-scikit-learn>=1.8.0
-tqdm>=4.67.1
+# For Python 3.10-3.12 with CUDA 11.x
+# --extra-index-url https://pypi.nvidia.com
+# cupy-cuda11x>=13.0.0
+# cudf-cu11==24.12.*
+# cuml-cu11==24.12.*
+
+# For Python 3.10-3.12 with CUDA 12.x (recommended for CUDA 13.0)
+# --extra-index-url https://pypi.nvidia.com
+# cupy-cuda12x>=13.0.0
+# cudf-cu12==24.12.*
+# cuml-cu12==24.12.*
+
+# For Python 3.13 with CUDA 12.x
+# --extra-index-url https://pypi.nvidia.com
+# cupy-cuda12x>=13.0.0
+# cudf-cu12==24.12.*
+# cuml-cu12==24.12.*
+
+# Note: Python 3.14 is not yet supported by RAPIDS
+# Use Python 3.12 or 3.13 for GPU acceleration
