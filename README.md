@@ -22,12 +22,22 @@ This project implements large-scale waveform generation, feature extraction, and
 
 ## Installation
 ```bash
-# Core dependencies
-pip install numpy pandas matplotlib seaborn scipy scikit-learn tqdm
+# Install Python 3.12 if not already available
+sudo dnf install python3.12 python3.12-devel
 
-# GPU acceleration (optional)
-pip install cudf-cuda11 cuml-cuda11 cupy-cuda11
-# Adjust the CUDA version as needed for your system
+# Create virtual environment with Python 3.12
+python3.12 -m venv ~/venvs/rapids_env
+source ~/venvs/rapids_env/bin/activate
+
+# Install dependencies
+pip install --upgrade pip
+pip install numpy pandas matplotlib seaborn scikit-learn scipy tqdm
+
+# Install CuPy for CUDA 12.x (since you have CUDA 13.0, use cu12x)
+pip install cupy-cuda12x
+
+# Install RAPIDS for CUDA 12
+pip install --extra-index-url=https://pypi.nvidia.com cudf-cu12 cuml-cu12
 ```
 
 ## Usage
